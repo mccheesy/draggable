@@ -1,18 +1,18 @@
 <template>
-  <div class="draggable-mat">
+  <div class="draggable-area">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'DraggableMat',
+  name: 'DraggableArea',
   props: {},
 };
 </script>
 
 <style scoped>
-.draggable-mat {
+.draggable-area {
   background-color: #ded;
   border: 1px dashed #cac;
   display: flex;

@@ -14,11 +14,11 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-narrow">
-          <draggable-mat>
+          <draggable-area>
             <draggable-item />
             <draggable-item />
             <draggable-item />
-          </draggable-mat>
+          </draggable-area>
         </div>
       </div>
     </div>
@@ -27,14 +27,14 @@
 
 <script>
 import HelloWorld from './components/HelloWorld';
-import DraggableMat from './components/DraggableMat';
+import DraggableArea from './components/DraggableArea';
 import DraggableItem from './components/DraggableItem';
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    DraggableMat,
+    DraggableArea,
     DraggableItem,
   },
 };
