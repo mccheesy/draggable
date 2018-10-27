@@ -26,14 +26,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
 import DraggableArea from './components/DraggableArea';
 import DraggableItem from './components/DraggableItem';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     DraggableArea,
     DraggableItem,
   },
